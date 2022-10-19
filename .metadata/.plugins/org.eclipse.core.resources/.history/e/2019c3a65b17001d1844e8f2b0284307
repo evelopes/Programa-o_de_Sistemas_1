@@ -1,0 +1,49 @@
+package professorResolve;
+
+import java.util.Scanner;
+
+public class aplicandoConhecimento {
+	public static void main(String[] args) {
+		int op;
+		double n1,n2;
+		Scanner entrada = new Scanner(System.in);
+		while(true) {		
+		System.out.println("Digite a operação que deseja: 1 - média, 2 -diferença ><, 3 multiplicação, 4 divisao,5sair");
+		op = entrada.nextInt();
+		if(op < 1 || op > 5) {
+			System.out.println("OPÇÃO INVÁLIDA");
+			continue;
+		}
+		if(op ==5) 
+			break;
+	
+		n1 = entrada.nextDouble();
+		n2 = entrada.nextDouble();
+		switch(op) {
+		case 1:
+			System.out.println("A media é " + ((n1 +n2)/2));
+			break;
+		case 2:
+			if(n1 > n2){
+				System.out.println("A diferença é " + (n1 - n2) );
+				} else {
+					System.out.println("A diferença é " + (n2 - n1) );
+				}
+			break;
+		case 3:
+			System.out.println("A multiplicação é " + (n1 * n2));
+			break;
+		case 4:
+			if(n2 == 0) {
+				System.out.println("NÃO FOI POSSÍVEL REALIZAR A OPERAÇÃO");
+			}else {
+			System.out.println("A divisão é " + (n1 / n2));
+			};
+			break;
+		case 5:
+			break;
+
+}
+}
+	}
+}

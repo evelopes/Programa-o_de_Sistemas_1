@@ -1,0 +1,8 @@
+package aula6;
+
+public class Pedido {
+	int numero;
+	Produto item;
+	int quantidade;
+	double valor;
+}

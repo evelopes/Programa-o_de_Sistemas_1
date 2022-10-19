@@ -1,0 +1,19 @@
+package aula6;
+
+public class Pedido {
+	int numero;
+	Produto item;
+	int quantidade;
+	double valor;
+	
+	Pedido(int numero, Produto item, int quantidade){
+		this.numero = numero;
+		this.item = item;
+		this.quantidade = quantidade;
+		
+	}
+	
+	public void calculaPedido() {
+		this.valor = this.quantidade * this.preco;
+	}
+}

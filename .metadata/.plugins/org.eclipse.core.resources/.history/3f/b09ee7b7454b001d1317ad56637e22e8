@@ -1,0 +1,14 @@
+package BBB;
+
+/**
+ * @author eveli
+ *
+ */
+public class Exemplo1 {
+	public static void main(String[] args) {
+		Empresa e ;
+		e = new Empresa("Mackenzie");
+		System.out.println(e);
+	}
+
+}

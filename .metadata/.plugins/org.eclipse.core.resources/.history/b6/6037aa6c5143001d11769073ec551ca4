@@ -1,0 +1,42 @@
+package aula5;
+
+public class Produto {
+	int codigo;
+	String descricao;
+	double preco;
+	int quantidade;
+	double calculaValor(double valor, int qtd) {
+		return valor * qtd;
+	}
+
+	public static void main(String[] args) {
+		Produto prod1 = new Produto();
+		prod1.codigo = 12345;
+		prod1.descricao= "Produto de Teste 1";
+		prod1.setPreco(1000);
+		prod1.setQuantidade(50);
+		System.out.println(prod1.getPreco());
+		System.out.println(prod1.getQuantidade());
+		System.out.println(prod1.calculaValor(preco, codigo));
+	}
+
+	private int getQuantidade(int valor) {
+		// TODO Auto-generated method stub
+		return valor;
+	}
+
+	private double getPreco(double preco) {
+		// TODO Auto-generated method stub
+		return preco;
+	}
+
+	private void setQuantidade(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void setPreco(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+}

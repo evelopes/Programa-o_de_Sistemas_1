@@ -1,0 +1,8 @@
+package Banco;
+
+public class Corrente {
+	int numero;
+	double saldo;
+	double credito;
+	
+}

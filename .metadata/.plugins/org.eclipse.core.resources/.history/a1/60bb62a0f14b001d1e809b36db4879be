@@ -1,0 +1,6 @@
+package aula6;
+
+public class Produto {
+	int cod;
+	String descricao;
+}

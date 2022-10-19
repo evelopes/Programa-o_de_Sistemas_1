@@ -1,0 +1,8 @@
+package w3schools;
+
+public class Matematica {
+	public static void main(String[] args) {
+		console.log(Math.max(5, 10));
+		
+	}
+}

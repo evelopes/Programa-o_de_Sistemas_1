@@ -1,0 +1,8 @@
+package w3schools;
+
+public class StringMetodos {
+	public static void main(String[] args) {
+		String texto = "ABCDEFGHIJKLMNOPQRSTUVWYXZ";
+		System.out.println("O tamanho da string é: "+ texto.length());
+	}
+}

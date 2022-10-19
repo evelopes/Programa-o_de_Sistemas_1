@@ -1,0 +1,14 @@
+package aula6;
+
+public class Produto {
+	int cod;
+	String descricao;
+	double preco;
+	
+	Produto(int cod, String desc, double preco){
+		this.cod = cod;
+		this.descricao = desc;
+		this.preco = preco;
+	}
+
+}

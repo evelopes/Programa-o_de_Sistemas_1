@@ -1,0 +1,16 @@
+package Banco;
+
+public class Poupanca {
+	int numero;
+	double saldo;
+	double rendimento;
+	
+	Poupanca(int numero; double saldo){
+		this.numero = numero;
+		this.saldo = saldo;
+	}
+	
+	sacar(double saldo){
+		return this.saldo;
+	}
+}

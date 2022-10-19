@@ -1,0 +1,7 @@
+package aulaContinuacao;
+
+public class Fornecedor {
+	int codigo;
+	String nome;
+	String telefone;
+}

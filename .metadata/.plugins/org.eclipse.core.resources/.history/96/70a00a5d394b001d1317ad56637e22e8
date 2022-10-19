@@ -1,0 +1,9 @@
+package Banco;
+
+public class Cliente {
+	String nome;
+	String cpf;
+	int agencia;
+	Poupanca ctaPoupanca;
+	Corrente ctaCorrente;
+}

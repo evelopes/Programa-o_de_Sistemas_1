@@ -1,0 +1,13 @@
+package w3schools;
+
+public class OperadorExemplo {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 10;
+		//System.out.println(++a); soma mais um e faz a atribuição
+		//System.out.println(a++); idem
+		System.out.println((a++) + (++a)); //soma+UM + soma+UM
+		System.out.println(--a);
+		System.out.println(a--);
+	}
+}

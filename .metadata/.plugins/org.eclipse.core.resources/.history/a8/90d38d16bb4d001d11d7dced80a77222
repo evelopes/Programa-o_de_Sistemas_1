@@ -1,0 +1,19 @@
+package w3schools;
+
+public class Condicionais {
+	public static void main(String[] args) {
+		if (30 > 20) {
+			System.out.println("É maior");
+		}
+		
+		int x = 20;
+		int y = 15;
+		if(x > y) {
+			System.out.println("X é maior que Y");
+		}else {
+			System.out.println("X é menor que Y");
+			
+		}
+		
+	}
+}

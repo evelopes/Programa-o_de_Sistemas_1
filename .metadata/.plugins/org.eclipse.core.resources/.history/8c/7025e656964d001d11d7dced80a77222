@@ -1,0 +1,22 @@
+package w3schools;
+
+public class StringsMetodos {
+	public static void main(String[] args) {
+		String nome = "Jane "; //foi adicionado um espaço no final para funcionar melhor o concat
+		String sobrenome = "Austen";
+		System.out.println(nome + sobrenome); 
+		
+		//mesmo efeito com concat()
+		System.out.println(nome.concat(sobrenome));
+		
+		String x = "10";
+		int y = 25;
+		String z =  y + x;
+		
+		System.out.println("\n" + z);
+		
+		String citacao = "Mas confesso que a mim \"nada disso me encanta\". Prefiro infinitamente um livro.";
+		System.out.println(citacao);
+	}
+	
+}

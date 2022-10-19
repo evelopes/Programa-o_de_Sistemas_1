@@ -1,0 +1,8 @@
+package aula5;
+
+public class Produto {
+	public int codigo;
+	public String descricao;
+	private double preco;
+	
+}

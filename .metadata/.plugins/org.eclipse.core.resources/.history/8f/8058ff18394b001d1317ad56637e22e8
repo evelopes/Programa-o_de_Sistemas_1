@@ -1,0 +1,7 @@
+package Banco;
+
+public class Poupanca {
+	int numero;
+	double saldo;
+	double rendimento;
+}

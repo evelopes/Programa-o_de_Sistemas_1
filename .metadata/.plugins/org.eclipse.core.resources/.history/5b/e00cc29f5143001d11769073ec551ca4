@@ -1,0 +1,47 @@
+package aula5;
+
+public class Produto {
+	int codigo;
+	String descricao;
+	double preco;
+	int quantidade;
+	void calculaValor(double valor, int qtd) {
+		System.out.println(valor * qtd);;
+	}
+
+	public static void main(String[] args) {
+		Produto prod1 = new Produto();
+		prod1.codigo = 12345;
+		prod1.descricao= "Produto de Teste 1";
+		prod1.setPreco(1000);
+		prod1.setQuantidade(50);
+		System.out.println(prod1.getPreco());
+		System.out.println(prod1.getQuantidade());
+		System.out.println(prod1.calculaValor(preco, codigo));
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+
+	public int getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+
+}

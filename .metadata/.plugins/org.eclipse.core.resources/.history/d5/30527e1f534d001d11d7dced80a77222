@@ -1,0 +1,19 @@
+package w3schools;
+
+public class StringMetodos {
+	public static void main(String[] args) {
+		String texto = "ABCDEFGHIJKLMNOPQRSTUVWYXZ";
+		System.out.println("O comprimento da string é: "+ texto.length());
+		
+		String Texto = "Hello World";
+		System.out.println(Texto.toLowerCase());
+		System.out.println(Texto.toUpperCase());
+		
+		System.out.println("Variavel 'Texto' é != da variável 'texto'");
+		
+		String frase = "Saio de meu poema\r\n" + "como quem lava as mãos.";
+		System.out.println(frase);
+		
+		
+	}
+}
