@@ -14,14 +14,17 @@ public class Pedido {
 	}
 	
 	
-	double calculaPedido() {
-		return valor = quantidade * item.preco;
+	public void  calculaPedido() {
+		valor = quantidade * item.preco;
 	}
 	
 	public String toString() {
-		String s =  "Número do pedido: " + this.numero + "\nCódigo do Produto: " + item.cod +
-				"\nDescrição: " + item.descricao + "\nPreço do Produto :" + item.preco + 
-				"\nQuantidade: " + this.quantidade + "\nValor total do pedido: " +  this.valor; 
+		String s =  "Número do pedido: " + this.numero +
+				"\nCódigo do Produto: " + item.cod +
+				"\nDescrição: " + item.descricao + 
+				"\nPreço do Produto :" + item.preco + 
+				"\nQuantidade: " + this.quantidade + 
+				"\nValor total do pedido: " +  this.valor; 
 				return s;
 	}
 	

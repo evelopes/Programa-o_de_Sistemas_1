@@ -1,0 +1,28 @@
+package aula6;
+
+public class Pedido {
+	int numero;
+	Produto item;
+	int quantidade;
+	double valor;
+	
+	Pedido(int numero, Produto produto, int quantidade){
+		this.numero = numero;
+		this.item = produto;
+		this.quantidade = quantidade;
+		
+	}
+	
+	
+	double calculaPedido() {
+		return valor = quantidade * item.preco;
+	}
+	
+	public String toString() {
+		String s =  "Número do pedido: " + this.numero + "\nCódigo do Produto: " + item.cod +
+				"\nDescrição: " + item.descricao + "\nPreço do Produto :" + item.preco + 
+				"\nQuantidade: " + this.quantidade + "\nValor total do pedido: " +  this.valor; 
+				return s;
+	}
+	
+}
