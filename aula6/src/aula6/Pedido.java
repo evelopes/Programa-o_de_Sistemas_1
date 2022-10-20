@@ -9,12 +9,11 @@ public class Pedido {
 	Pedido(int numero, Produto produto, int quantidade){
 		this.numero = numero;
 		this.item = produto;
-		this.quantidade = quantidade;
-		
+		this.quantidade = quantidade;		
 	}
-	
-	
-	public void  calculaPedido() {
+
+
+	public void calculaPedido() {
 		valor = quantidade * item.preco;
 	}
 	
